@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    max-width: 1345px;
+    margin: 0 auto;
+}
+li{
+    list-style: none;
+}
+li a{
+    color: white;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+/* HOME */
+.home{
+    background: url("images/home_bg.png") no-repeat;
+    height: 880px;
+    background-size: cover;
+    background-position: center top;
+    margin-bottom: 200px;
+    position: relative;
+}
+.home::after{
+    content: '';
+    position: absolute;
+    height: 450px;
+    width: 830px;
+    background-color: rgba(85,132,255,0.29);
+    bottom: 0;
+    left: 50%;
+    margin-left: -415px;
+}
+/* HEADER */
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 45px;
+}
+.logo a{
+    display: flex;
+    align-items: center;
+    color: white;
+    user-select: none;
+}
+.logo img{
+    transform: scale(0.8);
+}
+.logo p{
+    padding-left: 5px;
+    font-weight: 400;
+    font-size: 34px;
+}
+.menu ul{
+    display: flex;
+}
+.menu ul li{
+    padding-left: 40px;
+    font-size: 14px;
+    letter-spacing: 0.05em;
+}
+.menu ul li:last-child a{
+    color: #5584ff;
+    border: 1px solid #5584ff;
+    padding: 10px 35px;
+    border-radius: 20px;
+}
+/* HEADER END */
+.title{
+    font-weight: 100;
+    text-align: center;
+    color: white;
+    font-size: 47px;
+    padding-top: 105px;
+}
+.sub_title{
+    text-align: center;
+    font-size: 28px;
+    padding: 6px 0 75px 0;
+    color: #8492af;
+    font-weight: 400;
+}
+.get_start_btn{
+    text-align: center;
+}
+.get_start_btn a{
+    background-color: #5584ff;
+    padding: 10px 47px;
+    border-radius: 10em;
+    font-size: 14px;
+}
+.home .container{
+    position: relative;
+}
+.dashboard{
+    display: block;
+    position: absolute;
+    left: 50%;
+    margin-left: -441px;
+    transform: scale(0.8);
+    top: 425px;
+    z-index: 5;
+}
+/* HOME END */
+
+/* FIRST SECTION ROW */
+.row{
+    display: flex;
+    justify-content: space-evenly;
+}
+.row .wrapper img{
+    transform: scale(0.77);
+}
+.row .wrapper .label{
+    font-size: 20px;
+    padding-top: 25px;
+    padding-bottom: 15px;
+    font-weight: bold;
+    letter-spacing: 0.02em;
+    color: #0e1a35;
+}
+.row .wrapper .text{
+    font-size: 14px;
+    line-height: 25px;
+    letter-spacing: 0.02em;
+    color: #8492af;
+    width: 300px;
+}
+.row .wrapper{
+    text-align: center;
+    position: relative;
+}
+.row .wrapper:nth-child(2)::before,
+.row .wrapper:nth-child(2)::after{
+    content: '';
+    position: absolute;
+    height: 1px;
+    width: 175px;
+    background-color: #8492af;
+    opacity: 0.3;
+    top: 44px;
+}
+.row .wrapper:nth-child(2)::before{
+    left: -135px;
+}
+.row .wrapper:nth-child(2)::after{
+    right: -135px;
+}
+.row .wrapper a{
+    font-size: 14px;
+    line-height: 138px;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    color: #0e1a35;
+    border: 1px solid rgba(132,146,175,0.29);
+    padding: 10px 70px;
+    border-radius: 24px;
+    line-height: 110px;
+}
+/* FIRST SECTION ROW END*/
+
+/* IPAD SECTION */
+.ipad_section{
+    position: relative;
+}
+.ipad_section .title{
+    text-align: left;
+    color: #0e1a35;
+}
+.ipad_section .text:nth-child(2),
+.ipad_section .text:nth-child(3){
+    font-size: 14px;
+    line-height: 27px;
+    color: #8492af;
+    width: 455px;
+}
+.ipad_section .text:nth-child(2){
+    padding-top: 26px;
+    padding-bottom: 20px;
+}
+.ipad_section .text:nth-child(3){
+    padding-bottom: 39px;
+}
+.ipad_section .wrapper{
+    padding-left: 90px;
+    display: flex;
+}
+.ipad_section .wrapper .right_img{
+    display: block;
+    transform: scale(0.7);
+}
+.right_img{
+    content: '';
+    position: absolute;
+    background-image: url('images/ipad.png');
+    right: -105px;
+    top: -20px;
+    transform: scale(0.8);
+}
+.mark{
+    font-size: 18px;
+    font-weight: 400;
+    color: #5584ff;
+}
+.ipad_section .container .box .mark{
+    padding-bottom: 25px;
+}
+.ipad_section .container .box i{
+    padding-right: 10px;
+    font-size: 22px;
+}
+/* IPAD SECTION END*/
+<<<<<<< HEAD:css/style.css
+
+/* DRUG_AND_DROP */
+.drug_and_drop{
+    background-image: url("images/drug_and_drop_bg.png");
+}
+/* DRUG_AND_DROP END */
+=======
+>>>>>>> 6e150bdf240811d52ebfc345ba79bc4a466b57ac:css.css
