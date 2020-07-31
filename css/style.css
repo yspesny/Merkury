@@ -217,3 +217,9 @@ a{
     font-size: 22px;
 }
 /* IPAD SECTION END*/
+
+/* DRUG_AND_DROP */
+.drug_and_drop{
+    background-image: url("images/drug_and_drop_bg.png");
+}
+/* DRUG_AND_DROP END */
