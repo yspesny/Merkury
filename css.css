@@ -20,7 +20,7 @@ a{
 }
 /* HOME */
 .home{
-    background: url("/images/home_bg.png") no-repeat;
+    background: url("images/home_bg.png") no-repeat;
     height: 880px;
     background-size: cover;
     background-position: center top;
@@ -199,7 +199,7 @@ a{
 .right_img{
     content: '';
     position: absolute;
-    background-image: url('/images/ipad.png');
+    background-image: url('images/ipad.png');
     right: -105px;
     top: -20px;
     transform: scale(0.8);
