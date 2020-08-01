@@ -169,6 +169,8 @@ a{
 /* IPAD SECTION */
 .ipad_section{
     position: relative;
+    padding-top: 88px;
+    padding-bottom: 200px;
 }
 .ipad_section .title{
     text-align: left;
@@ -179,7 +181,7 @@ a{
     font-size: 14px;
     line-height: 27px;
     color: #8492af;
-    width: 455px;
+    max-width: 455px;
 }
 .ipad_section .text:nth-child(2){
     padding-top: 26px;
@@ -201,7 +203,7 @@ a{
     position: absolute;
     background-image: url('images/ipad.png');
     right: -105px;
-    top: -20px;
+    top: 70px;
     transform: scale(0.8);
 }
 .mark{
@@ -217,12 +219,93 @@ a{
     font-size: 22px;
 }
 /* IPAD SECTION END*/
-<<<<<<< HEAD:css/style.css
 
-/* DRUG_AND_DROP */
-.drug_and_drop{
-    background-image: url("images/drug_and_drop_bg.png");
+/* DRAG_AND_DROP */
+.drag_and_drop{
+    background-image: url("images/drag_and_drop_bg.png");
+    height: 600px;
+    background-size: cover;
+    background-position: center top;
+    position: relative;
 }
-/* DRUG_AND_DROP END */
-=======
->>>>>>> 6e150bdf240811d52ebfc345ba79bc4a466b57ac:css.css
+.drag_and_drop .container{
+    display: flex;
+    justify-content: space-between;
+}
+.drag_and_drop img{
+    transform: scale(0.8);
+    position: absolute;
+    left: 0;
+    top: 82px;
+    max-width: 100%;
+    height: auto;
+}
+.drag_and_drop .title{
+    text-align: left;
+    padding-top: 167px;
+}
+.right_section .text{
+    padding-top: 30px;
+    color: white;
+    display: block;
+    max-width: 545px;
+    font-size: 14px;
+    line-height: 25px;
+}
+/* DRAG_AND_DROP END */
+
+/* POWERFULL */
+.powerfull .title{
+    color: #0e1a35;
+    padding: 75px 0 30px 0;
+}
+.powerfull .text{
+    font-size: 14px;
+    line-height: 25px;
+    color: #8492af;
+    text-align: center;
+    max-width: 780px;
+    margin: 0 auto;
+}
+.powerfull img{
+    padding-top: 65px;
+    width: 100%;
+    display: block;
+    max-width: 920px;
+    margin: 0 auto;
+}
+.powerfull .img_block{
+    position: relative;
+}
+.powerfull .left_text{
+    position: absolute;
+    left: 125px;
+    top: 135px;
+}
+.powerfull .right_text{
+    position: absolute;
+    text-align: right;
+    right: 110px;
+    bottom: 114px;
+}
+.powerfull .left_text .label,
+.powerfull .right_text .label{
+    letter-spacing: 0.03em;
+    color: #0e1a35;
+    padding-bottom: 30px;
+}
+.powerfull .left_text .text,
+.powerfull .right_text .text{
+    line-height: 24px;
+    letter-spacing: 0.035em;
+    color: #8492af;
+    max-width: 200px;
+    text-align: left;
+}
+.powerfull .right_text .text{
+    text-align: right;
+}
+
+
+
+/* POWERFULL END */
